@@ -1,0 +1,145 @@
+#Container{
+    width: 1100px;
+    margin: 0px auto;
+    border: 1px solid rgb(92, 16, 95); 
+}
+
+header{
+    background: rgb(240, 192, 255); 
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    line-height: 100px;
+    color:rgb(253, 196, 250); 
+    border-bottom: 3px solid rgb(106, 32, 112); 
+}
+body{
+    background: rgb(235, 204, 240); 
+    font-family: 'Times New Roman', Times, serif;
+}
+#content{
+    float: left;
+    width: 65%; 
+    background: rgb(234, 190, 252); 
+    min-height: 470px;
+}
+
+article{
+    color: rgb(32, 6, 61); 
+    margin-top: 15px;
+    border-bottom: 15px;
+    border-bottom: 1px solid rgb(218, 132, 252); 
+
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center; /* Opcional: centra las imágenes horizontalmente */
+    gap: 10px; /* Espacio entre imágenes */
+  }
+  
+  .contenedor img {
+    width: 200px; 
+    height: auto;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #ec9dfc;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #222;
+    margin-bottom: 30px;
+  }
+  
+  table {
+    margin: auto;
+    width: 70%;
+    border-collapse: collapse;
+    background-color: #e3d1eb;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(100, 15, 100, 0.1);
+  }
+  
+  th, td {
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #9149a3;
+  }
+  
+  th {
+    background-color: #9149a3;
+    color: rgb(244, 214, 248);
+    font-size: 25px;
+  }
+  
+  td img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  tr:hover {
+    background-color: #9149a3;
+  }
+
+
+
+
+
+
+
+
+
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #ec9dfc;
+    padding: 20px; /* Reducido para móviles */
+    text-align: center;
+}
+
+h1 {
+    color: #222;
+    margin: 20px 0;
+    font-size: 24px; /* Tamaño ajustado */
+}
+
+table {
+    width: 100%; /* Full width */
+    border-collapse: collapse;
+    background-color: #e3d1eb;
+    margin: 0 auto;
+}
+
+th, td {
+    padding: 12px; /* Reducido para móviles */
+    text-align: center;
+    border-bottom: 1px solid #9149a3;
+}
+
+td img {
+    width: 80px; /* Imágenes más pequeñas en móviles */
+    height: 80px;
+}
+
+/* Media Queries */
+@media (min-width: 600px) {
+    table {
+        width: 90%;
+    }
+    td img {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+@media (min-width: 900px) {
+    table {
+        width: 70%;
+    }
+}

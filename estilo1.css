@@ -1,0 +1,163 @@
+{
+    max-width:100%;
+    padding:0px;
+    margin: 0PX;
+}
+
+body{
+    background: rgb(247, 204, 255); /* Modifique el color*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Container{
+    width: 1100px;
+    margin: 0px auto;
+    border: 1px solid black; /* Modifique el color*/
+}
+
+header{
+    background: rgb(224, 178, 247); /* Modifique el color*/
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    line-height: 100px;
+    color:rgb(54, 8, 63); /* Modifique el color*/
+    border-bottom: 3px solid white; /* Modifique el color*/
+}
+
+nav{
+    background: rgb(184, 122, 241); /* Modifique el color*/
+    height: 50px;
+    border-bottom: 1px solid white; /* Modifique el color*/
+}
+
+ nav ul li {
+    float: left;
+    list-style: none;
+    margin: 10px;
+    line-height: 30px;
+ }
+
+ .clearfix{
+    clear: both;
+ }
+
+#content{
+    float: left;
+    width: 65%; 
+    background: rgb(234, 190, 252); /* Modifique el color*/
+    min-height: 470px;
+}
+
+aside{
+    float: left;
+    width: calc(30%-30px);
+    background: rgb(209, 151, 243); /* Modifique el color*/
+    min-height: 532px;
+    padding: 10px;
+}
+
+.article{
+    color: rgb(32, 6, 61); /* Modifique el color*/
+    margin-top: 15px;
+    border-bottom: 15px;
+    border-bottom: 1px solid rgb(218, 132, 252); /* Modifique el color*/
+
+}
+
+.article h2{
+    font-size: 30px; /* Modifique el tamaño de la página */
+}
+
+
+
+
+
+
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: rgb(247, 204, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Container {
+    width: 95%; /* Ancho flexible */
+    max-width: 1100px; /* Máximo para desktop */
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+/* Header y Nav */
+header {
+    background: rgb(224, 178, 247);
+    height: auto; /* Altura flexible */
+    padding: 20px 0;
+    text-align: center;
+    color: rgb(54, 8, 63);
+    border-bottom: 3px solid white;
+}
+
+nav {
+    background: rgb(184, 122, 241);
+    height: auto;
+    padding: 10px 0;
+    border-bottom: 1px solid white;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 5px 10px;
+}
+
+/* Contenido principal */
+#content {
+    width: 100%; /* Full width en móviles */
+    background: rgb(234, 190, 252);
+    padding: 15px;
+}
+
+aside {
+    width: 100%; /* Full width en móviles */
+    background: rgb(209, 151, 243);
+    padding: 15px;
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+    #content {
+        width: 65%;
+        float: left;
+    }
+    aside {
+        width: 35%;
+        float: left;
+    }
+}
+
+.article {
+    color: rgb(32, 6, 61);
+    margin: 15px 0;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(218, 132, 252);
+}
+
+.article h2 {
+    font-size: 25px; /* Tamaño ajustado */
+}
+
+/* Footer */
+footer {
+    clear: both;
+}
